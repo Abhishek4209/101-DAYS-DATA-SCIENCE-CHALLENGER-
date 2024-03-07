@@ -1,0 +1,10 @@
+numpy
+pandas
+seaborn
+matplotlib
+sckit-learn
+tensorflow
+scipy
+ipykernel
+
+# -e.
