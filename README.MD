@@ -23,3 +23,39 @@ Tuple
 Dictionaries
 Set
 ```
+
+### **➡️Day-3:-**
+
+```bash
+FUNCTION
+PASS KEYWORD
+ARGUMENTS
+DOCSTRING
+*ARGS
+**KWARGS
+
+
+GENRATOR FUNCTION
+
+yield
+
+Iterator  (iter)--> next
+Iterable
+
+working of for loop
+
+
+lambda function
+fun=lambda a,b:a+b
+
+map(function, *iterable)
+
+reduce(function, *iterable)
+
+
+filter(function,iterable)
+
+
+
+
+```
