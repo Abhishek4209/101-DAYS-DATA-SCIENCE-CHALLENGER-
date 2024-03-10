@@ -59,3 +59,23 @@ filter(function,iterable)
 
 
 ```
+
+
+### **➡️Day-4:-**
+
+```bash
+OOPS
+
+class
+self
+__init__
+
+1.POLYMORPHISM
+2.ENCAPSULATION
+3.INHERITENCE
+Simple Inheritence
+Multiple Inheritence
+Multilevel Inheritence
+
+
+```
