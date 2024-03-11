@@ -62,8 +62,8 @@ filter(function,iterable)
 
 
 ### **➡️Day-4:-**
-
 ```bash
+
 OOPS
 
 class
@@ -79,3 +79,31 @@ Multilevel Inheritence
 
 
 ```
+
+### **➡️Day-5:-**
+```bash
+
+
+4.ABSTRATION
+
+
+DECORATOR
+
+CLASS METHOD
+
+STATIC METHOD
+
+Magic Method
+Dunder Method
+
+PROPERTIES OF DECORATOR
+getters
+setters
+delters
+
+
+
+```
+
+### **➡️Day-6:-**
+```bash
