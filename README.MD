@@ -107,3 +107,37 @@ delters
 
 ### **➡️Day-6:-**
 ```bash
+
+
+Working with File
+open in diffrent mode
+read
+append
+write
+readline
+
+
+OS module
+
+file size
+remove file
+
+rename the file
+
+SHUTILS module
+
+copy the file
+
+json module
+
+Dictionary data(json data)
+
+csv module
+
+
+
+BUFFER READ AND WRITE MODULE
+buferedwriter
+buferedread
+
+```
