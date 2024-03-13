@@ -145,7 +145,7 @@ buferedread
 
 
 
-### **➡️Day-6:-**
+### **➡️Day-7:-**
 ```bash
 
 LOGGER 
@@ -159,7 +159,7 @@ LEVEL:-
 6.CRITICAL
 
 ```
-### **➡️Day-7:-**
+### **➡️Day-8git:-**
 ```bash
 
 MODULES AND IMPORT STATEMENT
