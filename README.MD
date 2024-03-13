@@ -141,3 +141,25 @@ buferedwriter
 buferedread
 
 ```
+
+
+
+
+### **➡️Day-6:-**
+```bash
+
+LOGGER 
+LEVEL
+```bash
+1.NOTSET
+2.DEBUG
+3.INFO
+4.WARNING
+5.ERROR
+6.CRITICAL
+
+```
+### **➡️Day-7:-**
+```bash
+
+MODULES AND IMPORT STATEMENT
