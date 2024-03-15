@@ -228,7 +228,7 @@ Lecture : Best Practice Exception Handling
 
 ```
 
-### **➡️Day-9:-**
+### **➡️Day-10:-**
 ```bash
 ```
 Multithreading:-
