@@ -226,6 +226,20 @@ Lecture : List Of General Use Exceptions
 Lecture : Best Practice Exception Handling
 
 
+```
+
+### **➡️Day-9:-**
+```bash
+```
+Multithreading:-
+Multiple process executed  at same time
+
+thread=[threading.Thread(target =test,args = (i,)) for i in range(10)]
+
+
+Multiprocessing:-
+Multiple process executed but not at same time
+
 
 
 
