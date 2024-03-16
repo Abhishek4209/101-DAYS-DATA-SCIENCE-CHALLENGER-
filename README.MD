@@ -245,3 +245,38 @@ Multiple process executed but not at same time
 
 
 ```
+
+### **➡️Day-11:-**
+```bash
+
+Working with SQL
+pip install MySQL-python
+
+import mysql.connector
+mydb=mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="9336",
+    
+)
+print(mydb)
+mycursor=mydb.cursor()
+mycursor.execute("SHOW DATABASES")
+for x in mycursor:
+    print(x)   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```

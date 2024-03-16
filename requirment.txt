@@ -2,9 +2,8 @@ numpy
 pandas
 seaborn
 matplotlib
-sckit-learn
+scikit-learn
 tensorflow
-scipy
 ipykernel
+MySQL-python
 
-# -e.
