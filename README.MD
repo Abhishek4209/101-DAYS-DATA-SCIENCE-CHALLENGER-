@@ -265,12 +265,80 @@ mycursor.execute("SHOW DATABASES")
 for x in mycursor:
     print(x)   
 
+```
 
 
 
 
 
 
+### **➡️Day-12:-**
+```bash
+Working with MongoDB:-
+
+import pymongo
+client = pymongo.MongoClient("mongodb://localhost:27017")
+db=client.test
+print(db)
+
+
+
+
+What Is Web Api:-
+
+Difference B/W Api And Web Api:-
+
+Rest And Soap Architecture:-
+
+Rest:-put,get ,post,delete
+Soap:-XML based Data used ,WSDL
+
+
+Restful Services:-
+
+
+
+
+
+
+Flask Introduction, Application, Open Link Flask, App Routing Flask & Url Building Flask:-
+
+
+
+from flask import Flask
+
+app=Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    return "<h1>Hellow world </h1>"
+if __name__ =="main":
+    app.run(host='0.0.0.0')
+
+
+
+
+Git:-
+
+Git Initialization:-
+
+
+git init
+git remote add origin URL
+git add .
+git commit -m "Commit name"
+git branch master -mv main
+git push origin main
+
+
+Git push:-
+git add .
+git commit -m "commit name"
+git push origin main
+
+
+
+Flask Http Methods, Templates, Project & Postman:-
 
 
 
