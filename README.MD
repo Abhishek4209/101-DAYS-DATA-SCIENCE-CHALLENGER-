@@ -348,3 +348,54 @@ Flask Http Methods, Templates, Project & Postman:-
 
 
 ```
+
+### **➡️Day-13:-**
+```bash
+
+
+Pandas Basic:-
+
+series
+series is equvalent to the list.
+
+DataFrame:-
+DataFrame is the list of series
+
+read_csv
+read_excel
+read on given link
+
+
+
+
+Pandas Advance:-
+
+Data manpulation
+iloc
+loc
+
+
+
+Pandas Part 3:-
+
+
+Pandas Part 4:-
+
+
+set_index
+reset_index
+data conversion from dict
+groupe by
+concat
+merge
+apply
+
+
+Pandas Part 5:-
+
+Time data
+
+
+
+
+```
