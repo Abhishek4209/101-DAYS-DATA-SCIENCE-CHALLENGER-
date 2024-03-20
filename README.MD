@@ -399,3 +399,22 @@ Time data
 
 
 ```
+
+### **➡️Day-14:-**
+```bash
+
+Numpy:-
+
+Data Type:-
+
+
+arange:-
+linspace:-
+random:-
+
+ Numpy part-2:-
+
+ Numpy part-3:-
+
+
+```
