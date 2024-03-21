@@ -418,3 +418,24 @@ random:-
 
 
 ```
+### **➡️Day-15:-**
+```bash
+
+Matplotlib:-
+
+
+
+
+
+Seaborn:-
+
+
+```
+
+### **➡️Day-16:-**
+```bash
+
+Plotly:-
+
+
+Bokeh:-
