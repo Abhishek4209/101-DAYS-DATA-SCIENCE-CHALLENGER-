@@ -439,3 +439,71 @@ Plotly:-
 
 
 Bokeh:-
+
+```
+### **➡️Day-16:-**
+```bash
+
+Statistics Basic:-
+
+Statistics is a science of collecting organizing and analyzing data.
+ 
+Data:-
+
+peaces of information
+
+
+Type of Statistics;-
+
+
+
+Papultion Data:-
+Sample Data:-
+
+Type of Data:-
+
+1.Quantitative Data(Numerical Data)
+a.Descrete Data
+b.Continues Data
+
+2.Qualitative Data(Categorical Data)
+a.Nominal Data
+b.Ordinal Data
+
+
+
+Scale of Mesurement Of Data:-
+
+Nominal Scale Data
+Ordinal Scale Data
+Interval Scale Data
+Ratio Scale Data
+
+
+Random Variable:-
+
+Random variable is the process of mapping the outputs of a random process or experiment to a number.
+
+
+Set:-
+
+
+
+Skewness and Histogram:-
+Left Skewed
+Mean < Median < Mode
+
+Right Skewed
+
+Mean > Median > Mode
+
+
+Covariance and Corelation:-
+
+Covvariance:-
+
+Correlation:-
+1.spearman
+2.Karl-Pearson Rank correlation
+
+```
