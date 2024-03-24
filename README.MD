@@ -517,3 +517,34 @@ Revision of basic Statistics
 
 
 ```
+
+### **➡️Day-19:-**
+```bash
+
+1.Probability Density function:-
+a.Probability mass function:-
+b.Probability Density function:-
+
+
+
+Cumalative Destribution Function:-
+
+
+
+
+
+
+
+Types of Distribution:-
+1.Normal / Gaussian Distribution :- bell curve,    [pdf]
+2.Bernauli Distribution :- 0 or 1 ,always binary outcome ,   [pmf]
+3.Uniform Distribution [Pmf]
+4.Poisson Distribution;- [pmf]
+5.Log Normal Distribution :- [pdf]
+6.Binomial Distribution:- [pmf]  , Special case of bernauli distribution like more time an experiment was happen.
+
+
+
+
+
+```
