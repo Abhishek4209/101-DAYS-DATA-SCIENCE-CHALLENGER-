@@ -548,6 +548,7 @@ Types of Distribution:-
 
 
 ```
+
 ### **➡️Day-20:-**
 ```bash
 
@@ -560,4 +561,33 @@ Advanced Stats Revision
 
 
 Advanced Stats Revision
+```
+
+### **➡️Day-21:-**
+```bash
+
+Normal Distribution:- [pdf]
+
+Continues Random Variable
+Bell Curve  
+Symetrical Curve (mean=median=mode) 
+
+Variance increased then Gradient is also increased
+
+Emperical Rule of Normal Distribution:-
+1  S.D---> 68% Data
+2  S.D---> 95% Data
+3  S.D---> 99.7% Data
+
+
+
+
+
+Uniform Distribution:-
+
+
+
+
+
+
 ```
