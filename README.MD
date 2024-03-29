@@ -648,3 +648,22 @@ Significance Value (alpha):-
 
 
 ```
+
+
+
+### **➡️Day-24:-**
+```bash
+
+T- test:-
+DOF
+
+
+Student T-distribution:-
+
+
+T-test vs Z-test:-
+
+
+Type -1 Error Type -2 Error:-
+
+```
