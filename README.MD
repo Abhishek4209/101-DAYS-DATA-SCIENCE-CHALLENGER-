@@ -563,7 +563,7 @@ Advanced Stats Revision
 Advanced Stats Revision
 ```
 
-### **➡️Day-21:-**
+### **➡️Day-22:-**
 ```bash
 
 Normal Distribution:- [pdf]
@@ -581,13 +581,70 @@ Emperical Rule of Normal Distribution:-
 
 
 
+```
 
+### **➡️Day-23:-**
+```bash
 
 Uniform Distribution:-
 
+1. Continuous Uniform Distribution (PDF)
+
+PDF:-
+  1    for x E[a,b]     
+_____
+ (b-a)
+
+ 0 othervise.
+
+ mean,median.varinance.
 
 
 
+2. Discrete Uniform Distribution (PMF)
+
+PMF:-
+
+  1/n
+
+mean= (a+b)/2
+
+median= (a+b)/2
+
+
+
+Z-stats:-
+
+Z-score= (Xi-mean)
+         _________
+         S.D.
+
+
+mean=0
+S.D.=1
+
+
+
+Central Limit Theorm:-
+The CLT says that The sampling  distribution of the mean will alawys be normaly distributed , as the sample size in large enough. Regardless of whether the population has a normal , Poisson , binomial ,or any other distribution , the sampling distribution ,the sampling distribution of the mean will be normal.
+
+
+
+Infrenctial Stats:-
+
+Estimate:-
+1- Point Estimate:-
+2- Interval Estimate:-
+
+
+
+Hypothesis Testing:-
+
+P-value:-
+
+Confidence Interval:-
+
+Significance Value (alpha):-
 
 
 ```
