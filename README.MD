@@ -667,3 +667,80 @@ T-test vs Z-test:-
 Type -1 Error Type -2 Error:-
 
 ```
+
+
+### **➡️Day-25:-**
+```bash
+
+Bayes Statistics(Bayes Therom):-
+P(A and B)=p(A)*p(B/A)
+
+
+P(A/B)=  P(B) * p(A/B) 
+        ---------------
+            P(A)
+
+
+
+
+Confidence Interval And Margin of Error:-
+Point Estimate ± Margin of Error:-
+
+
+
+Chi-Square test:-
+It is a Non parametric test that is perform on categorical data.
+
+
+             
+x2= sum  (O-E)^2
+        --------
+           E
+
+Chi-Square -test with python:-
+
+
+Analysis of variance (Anova):-
+ANOVA is a statistical method used to compare the means of 2 or more group.
+
+
+Assumptions in Anova Test:-
+
+1-Normality of Smapling Distribution of mean:-
+The Distribution of sample mean is Normaly Distributed.
+
+2-Absence of Outlier:-
+Outlying score need to remove from Datasets.
+
+3-Homogenty of variance:-
+Each one of the population it should have same Variance.
+Population variance in diffrent levels of each independet variable are equal.
+
+4-Sample are independent and random:-
+
+
+
+Type of ANOVA:-
+1-One way ANOVA :- 
+
+
+2-Repeated Measurre Anova:-
+One factor with atleast 2 levels and thes levles are dependent.
+
+
+3-Factorial ANOVA:-
+Two or more factor (each of which with atach 2 levels ) levels can be either dependent or independent.
+
+
+
+Partitioning of Variance in the ANOVA:-
+
+F-Distribution:-
+
+F- Test(variance ratio test):-
+
+
+F-test with python:-
+
+
+```
