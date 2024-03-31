@@ -744,3 +744,50 @@ F-test with python:-
 
 
 ```
+
+
+### **➡️Day-26:-**
+```bash
+
+AI VS ML VS DL VS DS:-
+
+Types Of Machine Learning:-
+
+1.Supervised Machine Learning:-
+a.Classification------->Used for categries data.
+b.Regression------->Used for Continuous data.
+
+2.UnSupervised Machine Learning:-
+
+3.SemiSupervised Machine Learning:-
+
+4.Reinforcement Learning:-
+
+
+
+Datasets:-
+1.Training Datasets.
+2.Testing Datasets.
+3.Validation Datasets.
+
+
+
+Model performence:-
+Overfiting and Underfitting:-
+Train Accuracy---->high  || Test Accuracy----->Low  -------------------> Overfitting (Low bias[Training acc] high Variance[Test Acc])
+Train Accuracy---->Low  || Test Accuracy----->Low  -------------------> Underfitting (high bias[training Acc] high Variance[Test Acc])
+Train Accuracy---->high  || Test Accuracy----->high  ------------------->Genral model (Low bias[training acc] Low Variance[testing Acc])
+
+
+
+Missing Value:-
+1.Missing Completly at Random (MCAR):-
+2.Missing At Random (MAR):-
+3.Missing Not At Random (MAR):-
+
+
+Imputation method for handling missing value:-
+
+
+
+```
