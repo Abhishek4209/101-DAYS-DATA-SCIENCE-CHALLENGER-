@@ -791,3 +791,83 @@ Imputation method for handling missing value:-
 
 
 ```
+
+### **➡️Day-27:-**
+```bash
+Handling Imbalanced Datasets:-
+from sklearn.utils import resample
+1.Upsampling:-
+2.Down Sampling:-
+
+
+
+SMOTE:-
+from imblearn.over_sampling import SMOTE
+
+
+
+Data Interpolation:-
+1.Linear interpolation:- -
+2.Cubic interpolation:-
+from scipy.interpolate import interp1d
+
+3.Polynomial Interpolation:-
+
+
+
+Handling Outliers:-
+🔴5-Number Summary:-**
+1.Minimum Value
+2.Q1-25 percentile
+3.Median
+4.Q3-75 percentile
+5.Maximum value
+
+IQR=Q3-Q1
+Lower_fence=Q1-1.5*(IQR)
+Upper_fence=Q1+1.5*(IQR)
+
+Boxplot:-
+
+
+Feature Extraction:-
+
+
+
+
+Feature Scaling:-
+1.Standard Scaler:- (mean=0,std=1)
+
+
+mean=0,std=1
+
+Z-Score=    Xi-mean(X)
+           ------------
+              std(x)
+
+
+
+2.Normalization:- ( 0 to 1)
+
+
+
+Min Max Scaler(used in Deep learning):-
+
+
+X         = X  -  X
+ scaled      i    min
+            ----------
+            X  -  X
+             max   min 
+
+
+
+
+
+
+
+3.Unit Vector:-
+
+
+
+```
