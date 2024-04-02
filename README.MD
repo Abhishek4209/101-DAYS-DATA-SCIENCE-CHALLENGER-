@@ -871,3 +871,41 @@ X         = X  -  X
 
 
 ```
+
+
+### **➡️Day-28:-**
+```bash
+PCA Basics:-
+
+Data Encoding:-
+#### Types:-
+1.Nominal or One Hot Encoding (OHE):-
+
+No specific order or Rank
+Nominal Encoding is a technique used to transform categorical variable that have no intrisic ordering into numerical value that can be used in machine learning models.One common method for nominal encoding is one-hot-Encoding. Which create a binart vector for each category in the variable.
+
+
+2.Ordinal or Label Encoding:-
+
+Order matter
+
+
+
+
+3.Target guided Ordinal Encoding:-
+
+It is a technique used to encode categorical variables based on their relationship with the target variable. This encoding technique is useful when we have a categorical variable with a large number of unique categories, and we want to use this variable as a feature in our machine learning model.
+
+In Target Guided Ordinal Encoding, we replace each category in the categorical variable with a numerical value based on the mean or median of the target variable for that category. This creates a monotonic relationship between the categorical variable and the target variable, which can improve the predictive power of our model.
+
+
+
+Covarriance and Correlation:-
+Relationship b/w features.
+
+
+
+
+
+
+```
