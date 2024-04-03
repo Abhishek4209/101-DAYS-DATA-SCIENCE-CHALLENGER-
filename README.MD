@@ -904,7 +904,28 @@ Covarriance and Correlation:-
 Relationship b/w features.
 
 
+```
 
+
+
+### **➡️Day-29:-**
+```bash
+
+
+1.Check Missing Value.
+2.Check Duplicate Value.
+3.Check Data Type.
+4.Check the number of unique value of each column.
+5.Check Statistics of data set.
+6.Check various categories present in the different categories column.
+
+
+
+EDA WITH RED WINE DATASET:-
+
+EDA With Student Performence Datasets:-
+
+EDA WITH FOREST FIRE DATASETS:-
 
 
 
