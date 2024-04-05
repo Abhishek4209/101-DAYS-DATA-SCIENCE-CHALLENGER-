@@ -938,3 +938,45 @@ EDA AND FEATURE ENGINEERING WITH FLIGHT PRICES DATASETS:-
 
 
 EDA AND FEATURE ENGINEERING WITH Google Play Store DATASETS:-
+
+```
+
+
+### **➡️Day-31:-**
+```bash
+
+Simple Linear Regression:-
+Finding a best fit in such way if we calculated the overall sum of error should be minmum.
+
+Simple linear regression is a statistical method that uses a straight line to estimate the relationship between two continuous variables. The goal is to find a linear relationship that describes the correlation between the variables. The regression line can then be used to predict or estimate missing values. 
+
+
+## Cost Function:-
+
+                 n
+                --- 
+                \    [Actual_value-Predict_Value]
+J(0o,01) =      /    ----------------------------- 
+                ---       n
+                 i=1           
+
+
+
+
+Gradient Decent :-
+
+Gradient Decent is a optimization method to reduce cost using to chenge the 0o,01 value in order to get to find local minima in curve by which our error should be minimum. 
+
+
+
+
+Convergence Algorithm:-
+
+0j  : 0j  -alpha *   d   [J(0j)]
+                    -----
+                    d(0j)
+
+j:0,1
+
+
+```
