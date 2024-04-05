@@ -954,7 +954,7 @@ Simple linear regression is a statistical method that uses a straight line to es
 ## Cost Function:-
 
                  n
-                ----- 
+                -----                             2
                 \     [Actual_value-Predict_Value]
 J(0o,01) =      /     ----------------------------- 
                 -----       n
