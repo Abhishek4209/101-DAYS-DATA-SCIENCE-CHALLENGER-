@@ -980,3 +980,150 @@ j:0,1
 
 
 ```
+
+
+### **➡️Day-32:-**
+```bash
+
+* Multiple Linear Regression:-
+
+
+More than one independent variable.
+h0(x)=0o + 01x1 +02x2 +03x3 +04x4 +05x5 +06x6 + ........
+
+
+* Polynomial Linear Regression:-
+
+
+* Simple Polynomial Regression:-
+h0(x) = 0o (x1)^0 + 01 (x1)^1 +02 (x1)^2 + .......
+
+
+
+* Multiple Polynomial Regression:-
+h0(x) = 0o + 01 (x1)^1 + 02 (x2)^2 +03 (x3)^3 + .......
+
+* R squared Adjusted R squared:-
+
+* R_square= 1 - SS (res)
+              -------
+              SS (total)
+
+
+
+                n
+* R2_score=       -----                             2
+                \     [Actual_value-Predict_Value]
+        1  -    /     ----------------------------- 
+                -----       
+                i=1              
+               ---------------------------------------
+                n
+                -----                           
+                \                2
+                /   [Yi - mean(Yi)]  
+                -----       
+                i=1  
+
+
+
+
+
+
+
+
+
+* Adjusted R2_score  =   1 - (1-R^2)(N-1)
+                           -------------
+                            N-P-1
+
+                        
+
+* N =no of data points.
+* R2= R2_score.
+* p= No of Independent Features.
+
+
+
+
+
+                 n
+                -----                             2
+                \     [Actual_value-Predict_Value]
+* MSE      =      /     ----------------------------- 
+                -----       n
+                 i=1           
+
+
+
+
+
+                 n
+                -----                             
+                \     |Actual_value-Predict_Value|
+* MAE      =      /     ----------------------------- 
+                -----       n
+                 i=1    
+
+* RMSE = (MSE)^1/2
+
+
+* Ridge Regression(L2 Regularization) :-
+* Reduce Overfitting.
+
+                 n                                              n
+                -----                             2            -----
+                \     [Actual_value-Predict_Value]             \         2
+J(0o,01) =      /     -----------------------------    + L     /  (slope)
+                -----       n                                  ------ 
+                 i=1                                            i=1
+
+
+
+
+* Lasso Regression(L1 regularization:-)
+to used for Feature selcetion:-
+
+
+
+
+* Cost Function:-
+
+                 n                                              n
+                -----                             2            -----
+                \     [Actual_value-Predict_Value]             \         
+J(0o,01) =      /     -----------------------------    + L     /  |slope|
+                -----       n                                  ------ 
+                 i=1                                            i=1
+
+
+
+
+
+
+* Lasso Regression:-
+* To perform both `Feature Selection` and `Overfitting`.
+
+
+                 n                                              n                       n
+                -----                             2            -----                  ------
+                \     [Actual_value-Predict_Value]             \         2            \ 
+* J(0o,01) =      /     -----------------------------    + L     /  (slope)      + L    /      |slope|    
+                -----       n                                  ------                 ------  
+                 i=1                                            i=1                   i=1 
+
+
+
+
+
+
+
+
+
+
+* from sklearn.linear_model import ElasticNet
+* from sklearn.linear_model import Ridge
+* from sklearn.linear_model import Lasso
+
+
+```
