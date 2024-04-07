@@ -1127,3 +1127,203 @@ J(0o,01) =      /     -----------------------------    + L     /  |slope|
 
 
 ```
+
+
+
+
+### **➡️Day-32:-**
+
+```bash
+
+
+Logistic Regression Indepth Intuition:-
+
+Can we solve this `classification` problem using `Linear Regression`:-
+* `Besr fit line change` because of outlier -----> prediction goes wrong .
+* The `Outcomes` comes >1` and `less than 0`.
+* To solve this problem we can use `Logistic regression by using Sqacing technique`.
+
+
+
+Best fit Equation:-
+           1
+* h0(x) =  ------
+              -z
+        (1 + e   )
+
+* z=sig(0o + 01x1)
+
+
+
+
+
+
+* We can not use this type of cost function because they give us a `non convex function` which have `more than one local mininma and one local maxinma`.:-
+
+                 n
+                -----                             2
+                \     [Actual_value-Predict_Value]
+J(0o,01) =      /     ----------------------------- 
+                -----       n
+                 i=1           
+
+h0(x) [predict_value] =          
+
+           1
+h0(x) =  ------
+              -z
+        (1 + e   )
+
+
+Binary Loss or Log loss :- 
+
+J(0o,01) = -ylog(h0(x)) - (1-y)log(1-h0(x))
+
+
+L2 Regularization:- To reduce Overfiting------>
+
+
+                                                  
+
+
+                                                     n
+                                                    ------
+* J(0o,01) = -ylog(h0(x)) - (1-y)log(1-h0(x))  + L  \         2
+                                                    / (slope)
+                                                    ------
+                                                    i=1
+
+
+
+* L1 Regularization:- Feature Selection--->
+
+                                                  
+
+                                                     n
+                                                    ------
+* J(0o,01) = -ylog(h0(x)) - (1-y)log(1-h0(x))  + L  \         
+                                                    / |slope|
+                                                    ------
+                                                     i=1
+
+
+
+
+
+Elasticnet  Regularization :-   Feature Selection , Reduce Overfiting---->
+
+
+* J(0o,01) = -ylog(h0(x)) - (1-y)log(1-h0(x))  + L2 + L1
+
+
+
+
+
+
+* Performance Metrics Confusion Matrix, Accuracy, Precision & Recall:-
+
+
+
+CONFUSION MATRIX:-
+
+   Actual Value---->
+
+Predict
+Value         _1_     _0_
+            1| TP    FP  |
+             |           |  
+            0| FN    TN  |
+             ---       --- 
+            
+
+
+
+
+* Accuracy:-            
+
+              TP + TN
+ACCURACY  =  -----------
+            TP+FP+FN+TN
+
+
+
+
+
+* Precision:-
+FP IS MORE IMPORTENT THEN USED THIS .
+
+                TP 
+PRECISION  =  -------
+               TP+FP
+
+
+
+
+Recall:-
+FN IS MORE IMPORTENT THEN USED THIS .
+
+                 TP 
+PRECISION  =  --------
+                TP+FN
+
+
+
+
+
+
+
+F-b score:-
+
+* when both `FP` and `FN` both is importent.
+        2
+    (1+b ) (Precision x Recall) 
+           --------------------
+           (Precision + Recall)
+
+
+
+
+* when both `FP` and `FN` both is importent.
+b=1
+
+* F-1 score =
+        
+        2* (Precision x Recall) 
+           --------------------
+           (Precision + Recall)
+
+
+
+
+
+
+* when  `FP` is much importent than `FN`.
+
+F-0.5 score:-------> 
+
+b=0.5
+
+* (1+0.25) * (Precision x Recall) 
+           --------------------
+           (Precision + Recall)
+
+
+
+
+
+
+* when  `FN` is much importent than `FP`.
+
+F-2 score:-------> 
+
+b=2
+
+
+(5) *      (Precision x Recall) 
+           --------------------
+           (Precision + Recall)
+
+
+
+
+```
