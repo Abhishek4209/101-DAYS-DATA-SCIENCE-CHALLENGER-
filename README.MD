@@ -1327,3 +1327,90 @@ b=2
 
 
 ```
+
+
+
+### **➡️Day-34:-**
+
+```bash
+
+* Cross Validation & Types:-
+Devide the whole data into 3 part.
+1.Train Data ------------> Train the model with this data.
+2.Validation Data ---------> Model Hyperparameter Tuning Of our model.
+3.Test Data -----------------> Test the model with this data. Test data always hide with your model on training time.
+
+
+
+
+## Types of CV:-
+* 1.Leave One Out Cross Validation(LOOCV):-
+* One data is for model validation.
+* remaining all are used for model training.
+
+## Disadvantage:-
+* Time Complexcity is Huge for training biig dataset.
+* Model Overfit -------> Training Acc--> High  Validation Acc --> Low 
+
+
+
+* 2.Leave P Out CV:-
+* P data is for model validation. p---> Hyperparameter.
+* remaining all are used for model training.
+
+
+
+* 3. K fold Cross Validation:-
+
+* K=5(Hyperparameter) ----------> How many times you can perform Cross Validation.
+
+* n=500 (Size of Datasets):-
+
+* Validation Size = 500
+                    --- = 100
+                     5
+
+* First 100  records will be Validation data and remaining 400 will be training data. 
+
+* This can perform many times.
+
+
+
+
+
+* 4.Stratified K Fold  CV:-
+* Used for `Imbalanced Datasets`.
+
+
+
+* 5.Time Series CV:-
+
+
+##  Hyperparameter Tuning:-
+* Finding the best parameter while training the model.
+
+
+
+1.GridSearch CV[Grid Search + Cross Validation]:-
+* Give the Input In lIst Form.
+* Increase the model Performence or Accuracy.
+
+* Time Complexity Increases for training the model.
+
+
+
+
+2.RandomisedSearch CV
+
+* n_iter=10   cv=5
+* 10 diffrent combination + CV=5 
+
+* Time complexcity Decrease
+
+
+## Logistic Regression Implementation:-
+
+
+
+
+```
