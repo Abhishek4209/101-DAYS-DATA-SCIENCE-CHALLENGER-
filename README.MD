@@ -1410,6 +1410,136 @@ Devide the whole data into 3 part.
 
 ## Logistic Regression Implementation:-
 
+```
+
+
+
+
+### **➡️Day-34:-**
+
+```bash
+
+Decision Tree Classifier Intuition:-
+
+
+### Decision Tree Classifier:-
+* Type:-
+* ID3[Iterative Dichotomiser 3]
+* CART [Classification and Regression Tree]
+
+
+
+
+## Purity Check :-
+* Pure Split   --------> No futher split that feature.
+* Impure Split --------> futher split that feature.
+
+
+
+### Measure the Purity of Split:-
+* When Datasets is small  ---> Entropy
+* When Datasets is Huge----> G.I
+
+
+* Entropy   ------->
+
+H(s) = -P+ Log ( P+ )  - P- Log ( P- )
+              2                2   
+
+* P+ -----> Probability of postive Category.
+* P- -----> Probability of Negative Category.
+* Impure Split (50% -50%)  ----> H(s) =1
+* Pure Split (50% -50%)  ----> H(s) =0
+
+
+
+* Gini Inpurity------>
+
+            n
+           ------  
+G.I = 1 -  \      2
+           /   (p)
+           ------
+           i=1
+
+* p is both positive and negative class Probability. 
+* Impure Split (50% -50%)  ----> G>I = 0.5
+* Pure Split (50% -50%)  ----> G>I = 0
+
+
+
+
+
+### Information Gain:-
+
+                        
+                      -----
+Gain(s,f1) = H(s) -   \      |Sv| 
+                      /      ----- H(Sv)
+                      -----   |S|
+                      v E val
+
+
+* H(s) = -P+ Log ( P+ )  - P- Log ( P- )    ------> Root Node (Entropy)
+                2                2   
+  
+
+* H(Sv) = -P+ Log ( P+ )  - P- Log ( P- )   ---------> Child Node (Entropy)
+                 2                2   
+  
+
+
+
+
+## Decision Tree For Numerical Split:-
+* Time Complexcity is very large.
+* All Instences are split.
+
+
+### Post Pruning:-
+If we can perform Whole spplit on data then they faces overfitting.
+For reducet the overfitting we can used Pruning Technoique.
+
+
+
+* If we have (9Y /0 N) then we can perform pruning technique.
+* First Construct Decision tree then perform Pruning Technique in our model.
+* max_depth 
+
+
+
+
+### larger datasets:--------> Prepruning
+### Small datasets:--------> Postpruning
+
+
+
+## Decision Tree Classifier Implementation:-
+
+
+
+
+## Decision Tree Regressor In-depth Intuition:-
+
+### Variance Reduction:-
+
+
+
+                 n
+                -----                             2
+                \     [Actual_value-Predict_Value]
+*  Variance  =   /     ----------------------------- 
+                -----       n
+                 i=1           
+
+
+### Variance Reduction:-
+
+var(Root) - Sum(Wi Var(child))
+
+
+### Decision Tree Regressor Implementation:-
+
 
 
 
