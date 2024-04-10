@@ -1540,7 +1540,57 @@ var(Root) - Sum(Wi Var(child))
 
 ### Decision Tree Regressor Implementation:-
 
-
-
-
 ```
+
+### **➡️Day-36:-**
+
+```bash
+## Support Vector Classifier Indepth Intuition:-
+* SVC
+* SVR
+
+
+* Marginal Plane ----> maximum distance covered.
+* Support vector  ----> nearest point from best fit line.
+* best fit line
+
+
+* Soft Margin:- many points are missclassified.
+* Hard Margin:- No one points will be misclassified.
+
+## Cost function:-
+
+
+Maximize (w,b) = 2 ------------> Distance b/w marginal plane.
+                ---
+                ||w||
+
+
+
+
+## Cost Function:-(HInge Loss)
+
+                     n  
+ Min   ||w||        -----
+ w,b   -----  + C   \     E
+         2       i  /      i 
+                    ----- 
+                    i=1
+
+* C ----> how many datapoints are misclassified(Hyperparameter)
+   i 
+
+* E ---> Summation of all distance of incorrect data points from marginal plane.
+   i
+
+## Support Vector Machines Classifier:-
+
+## Support Vector Regressor Indepth Intuition:-
+
+## SVM Kernels Intuition:-
+* Polynomial Kernel
+* RBF Kernel
+* Sigmoid Kernel
+
+
+## SVM Kernels Implementation:-
