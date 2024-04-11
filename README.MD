@@ -1594,3 +1594,64 @@ Maximize (w,b) = 2 ------------> Distance b/w marginal plane.
 
 
 ## SVM Kernels Implementation:-
+
+```
+
+
+### **➡️Day-37:-**
+
+```bash
+
+## Naive Bayes Indepth Intuition:-
+Only For Classification Problems:-
+
+* Independent Events:-
+
+* dependent Events:-
+
+
+
+* P(A and B) =P(A) * P(B/A)--------(1)
+* P(B and A) =P(B) * P(A/B)--------(2)
+
+### Bayes Therom:-
+
+* Pr(A/B) = P(A)
+           ------ * P(B/A)
+            P(B)
+
+
+
+## Variants Of Naive Bayes Algorithms:-
+
+* Bernauli Naive Bayes:-
+When Your Output is Binary then We can use Bernauli Naive Bayes(Bernauli Distribution)
+
+
+
+* MultiNomial Naive Bayes:-
+When your data is Text related.Then use this algorithym.
+
+
+* Gaussian Naive Bayes:-
+When Your Data is Dstributed in Normal form then we can used Gaussian Naive Bayes.
+
+
+## Naive Bayes Practical Implementation:-
+
+
+
+##  Ensemble Techniques And Bagging:-
+Ensemble Techniques-------->Combining multiple model.
+
+###  BAGGING:-
+* ALL MULTIPLE MODEL ON TRAINING TIME THEY ARE CALLED BASE LEARNENR.
+
+## Out Of Bag Score Decision Trees:-
+Some data are not given to the model for model training.
+
+
+### Random Forest Practical Implementation:-
+
+
+```
