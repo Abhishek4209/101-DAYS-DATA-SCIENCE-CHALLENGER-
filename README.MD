@@ -1655,3 +1655,31 @@ Some data are not given to the model for model training.
 
 
 ```
+
+
+### **➡️Day-38:-**
+
+```bash
+
+## Boosting Algorithms:-
+* Weak learners ----> Sequential connecyed multiple ecision tree.
+
+1.Adabost
+2.Xgboost
+3.Gradientboost
+
+## Adaboost classifier indepth intuition:-
+We create Decision Tree Stump and we select the best stump.
+
+Depth of Decision Tree Stump ------>1
+
+
+## Xgboost Classification Algorithms:-
+
+## Xgboost Regresor Algorithm:-
+
+
+## Gradient Bosting Indepth Intuition:-
+
+
+```
