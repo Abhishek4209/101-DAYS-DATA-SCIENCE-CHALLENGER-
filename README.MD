@@ -1706,9 +1706,3 @@ dis =  | ((X2-X1) |  + | (Y2-Y1)) |
 
 ## Knn Classifier and Refressor:-
 ```
-KD Tree:-
-![Alt text](\3.png)
-
-
-Ball Tree:-
-![Alt text](\4.png)
