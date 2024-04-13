@@ -1683,3 +1683,32 @@ Depth of Decision Tree Stump ------>1
 
 
 ```
+
+### **➡️Day-39:-**
+
+```bash
+
+## KNN Classification And Regression:-
+
+1.Euclidian Distance:-
+              2          2
+dis = [(X2-X1)  + (Y2-Y1)  ]
+
+
+2.Manhatten Distance:-
+
+dis =  | ((X2-X1) |  + | (Y2-Y1)) |
+
+
+##  Variants Of KNN.:-
+* KD Tree:-
+* Ball Tree:-
+
+## Knn Classifier and Refressor:-
+```
+KD Tree:-
+![Alt text](\3.png)
+
+
+Ball Tree:-
+![Alt text](\4.png)
