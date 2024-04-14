@@ -1706,3 +1706,38 @@ dis =  | ((X2-X1) |  + | (Y2-Y1)) |
 
 ## Knn Classifier and Refressor:-
 ```
+
+### **➡️Day-40:-**
+
+```bash
+## Curse of Dimensionality Reduction
+
+* Principal Components Analysis:-
+If we have 3 features then we find excatly 3 PC and all PC are Orthogonal to each other.
+
+
+## Eigen Value Decompostions:-
+
+
+## PCA steps:-
+
+* 1.Covariance Matrix Between Features.   cov[f1,f2,f3,----,n]
+
+* 2.Eigen Value Eigen Vector will be found out using this covariance matrix.
+
+* A * v=lambda * v
+
+* lambda ----> Eigen Value.  
+
+* 3.Eigen Vector ----> Eigen Value is high ----> select it this cover maximum varriance.
+
+
+
+## Linear Transformation:-
+
+## PCA Implimentation:-
+
+
+
+
+```

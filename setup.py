@@ -3,11 +3,6 @@ from typing import List
 
 
 
-setup()
-
-
-from setuptools import find_packages,setup
-from typing import List
 
 HYPEN_E_DOT="-e."
 
@@ -30,10 +25,8 @@ setup(
     version="0.0.1",
     author="Abhishek Upadhyay",
     author_email="abhishek.it21-25@recabn.ac.in",
-    install_requires=get_requirements("requirment.txt"),
+    install_requires=get_requirements("requirements.txt"),
     packages=find_packages(),
-    
-    
     
     
 )
