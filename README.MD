@@ -1741,3 +1741,54 @@ If we have 3 features then we find excatly 3 PC and all PC are Orthogonal to eac
 
 
 ```
+
+
+### **➡️Day-41:-**
+```bash
+
+
+# Unsupervised Machine Learning:-
+
+## Clustering
+* KMeans Clustering
+* Hierarichal Clustering
+* DBSCAN Clustering
+
+
+
+
+
+## KMeans Clustering-
+
+### Steps in KMeans Clustering:-
+
+* 1.Initalize some K centroids.
+* 2.Points that are nearest to centroid just group them.
+* 3.Move the centroids by calculating the means.
+
+
+## Intialization of K value:-
+
+### WCSS :-
+
+### Random Intialization Trap:-
+This condition where a different set of clusters is generated when a different set of centroids are provided to the K-means algorithm making it inconsistent and unreliable is called the Random initialization trap.
+
+
+## Hierarichal Clustering:-
+
+* There will be no centroid value.
+
+## Aglomerative Clustering
+## Devisive Clusteing
+
+## Dendogram:-
+A dendrogram is a tree-structured graph used in heat maps to visualize the result of a hierarchical clustering calculation
+
+
+
+##  K-Means vs Heirarical Clustering:-
+
+
+
+```
