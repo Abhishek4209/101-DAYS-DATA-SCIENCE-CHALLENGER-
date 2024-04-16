@@ -1789,6 +1789,21 @@ A dendrogram is a tree-structured graph used in heat maps to visualize the resul
 
 ##  K-Means vs Heirarical Clustering:-
 
+### **➡️Day-42:-**
+```bash
+
+
+## DBSCAN Clustering:-
+
+
+## Silhoutte_score.:-
+
+
+
+Practical Implimentations:-
+* K-Means 
+* Agglomerative-Clustering
+* DBSCAN Clustering
 
 
 ```
