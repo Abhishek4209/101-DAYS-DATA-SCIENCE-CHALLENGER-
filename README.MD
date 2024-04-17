@@ -1809,3 +1809,50 @@ Practical Implimentations:-
 
 
 ```
+# Deep Learning:-
+
+### **➡️Day-43:-**
+```bash
+
+## Introduction To Deep Learning:-
+1. ML ----> (F.E)/(F.S)--->(Domain knowldge) ----> Tell by us.            | 1.  DL ----> (F.E)/(F.S)--->(Domain knowldge) -----> Automatic learn.
+                                                                          |
+                                                                          |
+2.Model Performence is decrese when Data is Increses.                     | 2. Model Performence is increse when Data is Increses.
+                                                                          |
+                                                                          |
+3.ML can not identify complex patterns                                    | 3. DL can identify complex patterns. 
+                                                                          |
+
+
+
+
+
+
+## Need For Deep Learning:-
+1. TO solve very complex problems.
+2. Data managment become easier .
+3. Handling large data sets. 
+
+
+
+
+## Use Case:-
+1. Youtube recomendation system.
+2. Google Translate.
+3. Face Id.
+4. Chat-GPT.
+
+
+##  Neural Network Perceptron:-
+
+
+## Derivation of Basic MatheMatics:-
+
+* Vectors.
+* Diffrentiaons.
+* Partial Diffrention.
+* Gradient.
+* Maxima And Minima.
+
+```
