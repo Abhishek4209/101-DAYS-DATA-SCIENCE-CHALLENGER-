@@ -1875,21 +1875,54 @@ and\ x \in [-\infty, +\infty]$$
 * Relu
 
 
+$$ReLU(x)= max(x,0)$$
+
+$$where\ ReLU(x) \in (0, x),\\
+and\ x \in [-\infty, +\infty]$$
+
 
 
 
 * Leaky Relu:-
 
+$$ 
+leaky\_relu(x, \alpha) = \left\{\begin{matrix} 
+x & x\geq 0 \\ 
+\alpha x & x \lt 0 
+\end{matrix}\right.
+$$
+
+$$where\ x \in [-\infty, +\infty]$$
 
 
-* Parametric Relu
+
+* Parametric Relu:-
+
+
+$$f(y_i) = \left\{\begin{matrix} y_i & y_i>0\\ \alpha_i \cdot y_i & y_i \leq 0 \end{matrix}\right.$$
+
+We look at the formula of PReLU. The parameter α is generally a number between 0 and 1, and it is generally relatively small, such as a few zeros. When α = 0.01, we call PReLU as Leaky Relu , it is regarded as a special case PReLU it.
+
+Above, yᵢ is any input on the ith channel and aᵢ is the negative slope which is a learnable parameter.
+* if $\alpha_i=0$, f becomes ReLU
+* if $\alpha_i>0$, f becomes leaky ReLU
+* if $\alpha_i$ is a learnable parameter, f becomes PReLU
 
 * Tanh:-
 
 
+$$tanh(x) = \frac{(e^{x} - e^{-x})}{(e^{x} + e^{-x})}$$
+
+$$where\ \tanh(x) \in (-1, 1),\\
+and\ x \in [-\infty, +\infty]$$
 
 
-* Softmax
+
+* Softmax:-
+
+$$S(x_j)=\frac{e^{x_j}}{\sum_{k=1}^{K} e^{x_k}}, where\ j = 1,2, \cdots, K $$
+
+
 
 
 
