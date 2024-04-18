@@ -1859,7 +1859,7 @@ Practical Implimentations:-
 
 ### **➡️Day-44:-**
 
-##  Activation Function:-
+## Activation Function:-
 
 * Help to understand non linearty into neural networks.
 
@@ -1872,16 +1872,24 @@ and\ x \in [-\infty, +\infty]$$
 
 
 
-
 * Relu
 
-* Leaky Relu
+
+
+
+
+* Leaky Relu:-
+
+
+
 * Parametric Relu
-* Tanh
+
+* Tanh:-
+
+
+
+
 * Softmax
-* 
-
-
 
 
 
