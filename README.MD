@@ -1856,3 +1856,36 @@ Practical Implimentations:-
 * Maxima And Minima.
 
 ```
+
+### **➡️Day-44:-**
+
+##  Activation Function:-
+
+* Help to understand non linearty into neural networks.
+
+*Sigmoid 
+
+$$\sigma (x) = \frac{1}{1+e^{-x}}$$
+
+$$where\ \sigma(x) \in (0, 1),\\
+and\ x \in [-\infty, +\infty]$$
+
+
+
+
+* Relu
+
+* Leaky Relu
+* Parametric Relu
+* Tanh
+* Softmax
+* 
+
+
+
+
+
+
+##  Forward Propagation:-
+
+
