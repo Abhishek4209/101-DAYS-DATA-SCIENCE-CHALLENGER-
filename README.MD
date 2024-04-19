@@ -1930,3 +1930,11 @@ $$S(x_j)=\frac{e^{x_j}}{\sum_{k=1}^{K} e^{x_k}}, where\ j = 1,2, \cdots, K $$
 ##  Forward Propagation:-
 
 
+### **➡️Day-45:-**
+```bash
+## Revision:-
+
+
+
+## ANN implementation:-
+```
