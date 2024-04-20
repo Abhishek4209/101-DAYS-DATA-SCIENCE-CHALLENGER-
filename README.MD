@@ -1937,4 +1937,68 @@ $$S(x_j)=\frac{e^{x_j}}{\sum_{k=1}^{K} e^{x_k}}, where\ j = 1,2, \cdots, K $$
 
 
 ## ANN implementation:-
+
+```
+
+### **➡️Day-46:-**
+```bash
+## Callback Functions:-
+* ModelCheck point
+* Early Stoping callback 
+* Tensorboar callback
+
+
+## Regression using ANN:-
+
+## Loss Function:-
+### For Reggresion model:-
+* MSE:-L2 loss
+
+
+$$MSE = \frac{1}{m}\sum_{i=1}^m (y^{(i)} - \hat{y}^{(i)})^2$$
+
+
+* MAE:-l1 loss
+
+$$MAE = \frac{1}{m}\sum_{i=1}^m |y^{(i)} - \hat{y}^{(i)}|$$
+
+* RMSE:-
+
+
+
+* Huber loss:-
+Huber Loss is often used in regression problems. Compared with L2 loss, Huber Loss is less sensitive to outliers(because if the residual is too large, it is a piecewise function, loss is a linear function of the residual).
+
+$$L_\delta(y, \hat{y}) = \left\{\begin{matrix}
+\frac{1}{2}(y - \hat{y})^2, & for\ |y - \hat{y}| \le \delta\\ 
+\delta(|y - \hat{y}| - \frac{1}{2}\delta), & otherwise
+\end{matrix}\right.
+$$
+
+
+### For Classification Problems:-
+
+
+* binary cross entropy:-log loss-
+
+$$J(w) = -y.log(\hat{y}) - (1 - y).log(1-\hat{y}) = - \sum_{i}p_i. log(q_i)$$
+
+
+
+* Categorical cross entropy:-
+
+* sparse categorical_crossentropy:-
+
+
+
+
+*  Hinge loss:-
+Hinge loss is often used for binary classification problems, such as ground true: t = 1 or -1, predicted value y = wx + b
+
+In the svm classifier, the definition of hinge loss is
+
+$$l(y) = max(0, 1-t.y)$$
+
+
+
 ```
