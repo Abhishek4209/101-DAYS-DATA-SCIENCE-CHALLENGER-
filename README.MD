@@ -2002,3 +2002,61 @@ $$l(y) = max(0, 1-t.y)$$
 
 
 ```
+
+### **➡️Day-47:-**
+
+
+
+## Batch Normalisation:-
+* By using this method our training is so fast.
+* And our model should be stable.
+* Internal Covarriance shift.
+
+##  Regularization:-
+Regularization is the process of adding information in order to solve an ill-posed problem or to prevent overfitting. Regularization can be applied to objective functions in ill-posed optimization problems.
+
+
+
+# L1 Regularization | Lasso | Least Absolute:
+$j_n(\theta ) = j_0(\theta ) + \alpha \sum_{i=1}^{m}\left | \theta_i \right |$
+
+# L2 Regularization | Ridge
+$j_n(\theta ) = j_0(\theta ) + \frac{\alpha}{2} \sum_{i=1}^{m}(\theta_i)^2$
+
+
+# L1 - L2 Regularization 
+$j_n(\theta ) = j_0(\theta ) + r\alpha \sum_{i=1}^{m}\left | \theta_i \right | + \frac{(1-r)}{2} \alpha \sum_{i=1}^{m}(\theta_i)^2$
+
+
+## Weight Initialisation:-
+
+### Table for choosing weight initialization technique based on the Activation function
+
+|Authors| Initialization |Activation function |
+|--|--|--|
+|Xavier Glorot and yoshna benjio| Glorot| tanh,sigmoid,softmax|
+|kaiming He | He | Relu and its variants|
+
+
+
+## Optimizers:-
+
+* Gradient Descent
+* Stochastic Gradient Decent:-
+
+
+
+![sgd1](https://user-images.githubusercontent.com/115534733/232980366-756db69a-2343-4387-8f52-01799d87b4d1.png)
+ 
+ **<center>Figure :- SGD without Momentum &&&  SGD without Momentum</center>**
+
+
+
+
+* Mini batch Gradient Decent
+* Momentum + GD
+* Adagrad
+* RMS Prop
+* Adam
+
+
