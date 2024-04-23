@@ -2059,4 +2059,19 @@ $j_n(\theta ) = j_0(\theta ) + r\alpha \sum_{i=1}^{m}\left | \theta_i \right | +
 * RMS Prop
 * Adam
 
+### ➡️Day -48:-
+```bash
 
+
+*HAND WRITTEN NUMBER PREDICTION USING MNIST DATASETS.
+
+
+
+```
+
+
+
+### ➡️Day -49:-
+```bash
+## Revision:-
+```
