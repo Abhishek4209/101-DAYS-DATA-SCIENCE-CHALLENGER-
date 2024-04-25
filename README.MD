@@ -2077,7 +2077,7 @@ $j_n(\theta ) = j_0(\theta ) + r\alpha \sum_{i=1}^{m}\left | \theta_i \right | +
 ```
 
 
-### ➡️Day -49:-
+### ➡️Day -50:-
 
 
 ## CNN :-
