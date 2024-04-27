@@ -2294,3 +2294,65 @@ The value of the above formula w_ij is determined by the bitmap encoding of i, w
 
 ## Alexnet:-
 
+
+
+
+## Day-51:-
+
+
+### VGG -16:-
+```bash
+* All Convulational Layer have filter sizes is (3,3).
+* Very depth to the Architecture.
+* There Was No Overlapping.
+* Remove LRN
+
+
+Conv 1-1
+Conv 1-2
+Padding
+
+
+Conv 2-1
+Conv 2-2
+Padding
+
+
+Conv 3-1
+Conv 3-2
+Conv 3-3
+Padding
+
+
+Conv 4-1
+Conv 4-2
+Conv 4-3
+Padding
+
+
+Conv 5-1
+Conv 5-2
+Conv 5-3
+Padding
+
+
+
+Dense
+Dense
+Dense
+
+
+
+
+```
+
+
+### VGG -19:-
+
+
+
+### ReseNet:-
+
+
+### InceptionNet:-
+
