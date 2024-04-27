@@ -2297,7 +2297,7 @@ The value of the above formula w_ij is determined by the bitmap encoding of i, w
 
 
 
-## Day-51:-
+## ➡️Day-51:-
 
 
 ### VGG -16:-
