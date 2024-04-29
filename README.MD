@@ -2790,6 +2790,7 @@ This will train the final softmax and the final bbox regression
 
 # ➡️Day-53:-
 
+
 ## IOU, Mean Average Precision ,Non Maximum Suppression:-
 
 
@@ -2941,7 +2942,6 @@ Some large targets may be located by multiple grids at the same time. NMS can so
 YOLO (You Only Look Once) is a state-of-the-art real-time object detection system. YOLOv2 is an improvement over the original YOLO model, offering better accuracy and speed.
 
 ![YOLOv2 Architecture](https://www.researchgate.net/publication/336177198/figure/fig4/AS:809235726229506@1569948240717/The-architecture-of-YOLOv2.ppm)
-
 ## Overview
 
 YOLOv2 works by dividing the input image into an SxS grid. Each grid cell predicts multiple bounding boxes and their corresponding class probabilities. YOLOv2 utilizes a single convolutional network to predict the bounding boxes and class probabilities directly from full images in one evaluation.
