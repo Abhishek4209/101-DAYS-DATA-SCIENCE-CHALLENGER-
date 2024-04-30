@@ -2972,3 +2972,25 @@ YOLOv2 achieves state-of-the-art performance in terms of both accuracy and speed
 
 If you find YOLOv2 useful in your research or project, please consider citing the original paper:
 
+
+
+## ➡️Day-53:-
+
+### YOLO V3:-
+
+
+
+### YOLO V4:-
+
+### YOLO V4 Part -2:-
+
+### YOLO V5:-
+ 
+### YOLO V6:-
+
+
+
+
+### YOLO V7:-
+
+
