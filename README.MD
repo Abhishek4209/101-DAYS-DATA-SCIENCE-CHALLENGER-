@@ -2974,7 +2974,7 @@ If you find YOLOv2 useful in your research or project, please consider citing th
 
 
 
-## ➡️Day-53:-
+## ➡️Day-54:-
 
 ### YOLO V3:-
 
@@ -2994,3 +2994,27 @@ If you find YOLOv2 useful in your research or project, please consider citing th
 ### YOLO V7:-
 
 
+
+## ➡️Day-55:-
+```bash
+
+Facial Recognition:-
+
+```
+### Siamese Neural Network:-
+
+A Siamese neural network (SNN) is a type of artificial neural network that uses the same weights to calculate similar output vectors from two different input vectors. SNNs are made up of two or more identical sub-networks, each with the same configuration, parameters, and weights. SNNs are used to compute similarity functions and identify if two data points are dissimilar.
+
+
+## Loss Function in Siamese Neural Network:-
+
+* Triplet Loss.
+* Contrastive Loss.
+
+
+### Triplet Loss:-
+
+![Screenshot 2024-05-04 201719.png](<attachment:Screenshot 2024-05-04 201719.png>)
+
+### Contrastive Loss:-
+![Screenshot 2024-05-04 201508.png](<attachment:Screenshot 2024-05-04 201508.png>)
