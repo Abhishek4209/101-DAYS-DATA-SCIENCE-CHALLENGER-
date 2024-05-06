@@ -3018,3 +3018,23 @@ A Siamese neural network (SNN) is a type of artificial neural network that uses 
 
 ### Contrastive Loss:-
 ![Screenshot 2024-05-04 201508.png](<attachment:Screenshot 2024-05-04 201508.png>)
+
+
+
+
+## ➡️Day-55:-
+```bash
+
+* GAN:-
+
+
+* DCGAN:-
+* STYLE GAN:-
+* W GAN:-
+
+* DC Gan Practical Implimentation:-
+This tutorial has shown the complete code necessary to write and train a GAN. As a next step, you might like to experiment with a different dataset, for example the Large-scale Celeb Faces Attributes (CelebA) dataset [available on Kaggle](https://www.kaggle.com/jessicali9530/celeba-dataset). To learn more about GANs see the [NIPS 2016 Tutorial: Generative Adversarial Networks](https://arxiv.org/abs/1701.00160).
+
+
+
+```
