@@ -3022,7 +3022,7 @@ A Siamese neural network (SNN) is a type of artificial neural network that uses 
 
 
 
-## ➡️Day-55:-
+## ➡️Day-56:-
 ```bash
 
 * GAN:-
@@ -3035,6 +3035,24 @@ A Siamese neural network (SNN) is a type of artificial neural network that uses 
 * DC Gan Practical Implimentation:-
 This tutorial has shown the complete code necessary to write and train a GAN. As a next step, you might like to experiment with a different dataset, for example the Large-scale Celeb Faces Attributes (CelebA) dataset [available on Kaggle](https://www.kaggle.com/jessicali9530/celeba-dataset). To learn more about GANs see the [NIPS 2016 Tutorial: Generative Adversarial Networks](https://arxiv.org/abs/1701.00160).
 
+
+
+```
+
+## ➡️Day-57:-
+```bash
+* NLP:-
+
+* Corpus:-
+
+
+* nltk:-
+
+* Token:-
+
+* sent_tokenize:-
+
+* word_tokenize:-
 
 
 ```
