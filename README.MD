@@ -3054,5 +3054,32 @@ This tutorial has shown the complete code necessary to write and train a GAN. As
 
 * word_tokenize:-
 
+```
+
+## ➡️Day-58:-
+```bash
+
+* NLP:-
+
+* Corpus:-
+
+
+* nltk:-
+
+* Token:-
+
+* sent_tokenize:-
+
+* word_tokenize:-
+
+*Stemming:-
+
+*Lemmitization:-
+
+* Bag of Words:-
+from sklearn.feature_extraction.text import CountVectorizer
+
+
+
 
 ```
