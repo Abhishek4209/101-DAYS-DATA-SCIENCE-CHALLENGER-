@@ -1,0 +1,4 @@
+use stores;
+
+SELECT * FROM CUSTOMERS;
+SLECT * FROM ;
